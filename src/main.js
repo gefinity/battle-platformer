@@ -107,7 +107,7 @@ fileLoader.loadText('arena001.tmx').then((tmx) => {
 
         // load linked resources and cache:
         level.linkedResources.forEach((resource, index) => {
-            let resourcePath = path.resolve(resource);
+            let resourcePath = resource;
             let promise = new Promise((resolve, reject) => {
                 fileLoader.loadImage(resourcePath).then((file) => {
                     level.resources[resource] = file;
