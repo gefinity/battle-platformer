@@ -29,8 +29,10 @@ module.exports = {
     resolve: {
         modulesDirectories: ['src', 'node_modules'],
         alias: {
-            // pointing outside the project, to the engine repro's dist folder
-            engine: '../../geTech1-js/dist/geTech1.js',
+            engine: '../geTech1.compiled',
+
+            // for dev: pointing outside the project, to the engine repro's dist folder
+            //engine: '../../geTech1-js/dist/geTech1.js',
         },
     },
     plugins: [
