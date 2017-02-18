@@ -1,0 +1,61 @@
+[
+    
+    {
+        "name": "walkE",
+        "fixed": {
+            "texture": "Zombie1_walk_E.png",
+            "w": 32,
+            "h": 32,
+            "rows": 1,
+            "cols": 6,
+            "start": {"x": 0, "y": 0},
+            "end": {"x": 5, "y": 0},
+            "dir": "xy" 
+        }
+    },
+    {
+        "name": "walkW",
+        "fixed": {
+            "texture": "Zombie1_walk_W.png",
+            "w": 32,
+            "h": 32,
+            "rows": 1,
+            "cols": 6,
+            "start": {"x": 5, "y": 0},
+            "end": {"x": 0, "y": 0},
+            "dir": "xy" 
+        }
+    },
+
+
+    {
+        "name": "deathE",
+        "fixed": {
+            "texture": "Zombie1_Death_E.png",
+            "w": 120,
+            "h": 60,
+            "rows": 1,
+            "cols": 10,
+            "start": {"x": 9, "y": 0},
+            "end": {"x": 0, "y": 0},
+            "dir": "xy" 
+        }
+    },
+
+    {
+        "name": "deathW",
+        "fixed": {
+            "texture": "Zombie1_Death_W.png",
+            "w": 120,
+            "h": 60,
+            "rows": 1,
+            "cols": 10,
+            "start": {"x": 0, "y": 0},
+            "end": {"x": 9, "y": 0},
+            "dir": "xy" 
+        }
+    }
+
+
+
+]

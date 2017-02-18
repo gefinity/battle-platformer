@@ -1,0 +1,13 @@
+{
+    "name": "default",
+    "fixed": {
+        "texture": "portal.png",
+        "w": 32,
+        "h": 32,
+        "rows": 1,
+        "cols": 25,
+        "start": {"x": 0, "y": 0},
+        "end": {"x": 24, "y": 0},
+        "dir": "xy" 
+    }
+}

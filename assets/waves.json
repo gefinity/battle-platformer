@@ -1,0 +1,41 @@
+[
+    [
+        {
+            "type": "enemy"
+        },
+        {
+            "type": "enemy"
+        }
+    ],
+    [
+        {
+            "type": "enemy"
+        },
+        {
+            "type": "enemy"
+        },
+        {
+            "type": "enemy"
+        },
+        {
+            "type": "enemy"
+        }
+    ],
+    [
+        {
+            "type": "enemy"
+        },
+        {
+            "type": "enemy"
+        },
+        {
+            "type": "enemy"
+        },
+        {
+            "type": "enemy"
+        },
+        {
+            "type": "enemy"
+        }
+    ]
+]

@@ -1,0 +1,73 @@
+[
+    
+    {
+        "name": "zombieBloodSplat",
+        "fixed": {
+            "texture": "zombie/Effects/Zombie_Bloodsplat.png",
+            "w": 120,
+            "h": 60,
+            "rows": 1,
+            "cols": 4,
+            "start": {"x": 0, "y": 0},
+            "end": {"x": 4, "y": 0},
+            "dir": "xy" 
+        }
+    },
+
+    {
+        "name": "bloodExplosion",
+        "fixed": {
+            "texture": "viking/Effects/Blood_Explosion.png",
+            "w": 130,
+            "h": 48,
+            "rows": 1,
+            "cols": 4,
+            "start": {"x": 0, "y": 0},
+            "end": {"x": 3, "y": 0},
+            "dir": "xy" 
+        }
+    },
+
+    {
+        "name": "axeSpin",
+        "fixed": {
+            "texture": "viking/Effects/Axe_Spin_Groundslide.png",
+            "w": 20,
+            "h": 20,
+            "rows": 1,
+            "cols": 4,
+            "start": {"x": 3, "y": 0},
+            "end": {"x": 0, "y": 0},
+            "dir": "xy"
+        }
+    },
+
+    {
+        "name": "axeW",
+        "fixed": {
+            "texture": "viking/Effects/Axe_Spin_Groundslide.png",
+            "w": 20,
+            "h": 20,
+            "rows": 1,
+            "cols": 4,
+            "start": {"x": 2, "y": 0},
+            "end": {"x": 2, "y": 0},
+            "dir": "xy"
+        }
+    },
+
+    {
+        "name": "axeE",
+        "fixed": {
+            "texture": "viking/Effects/Axe_Spin_Groundslide_2.png",
+            "w": 20,
+            "h": 20,
+            "rows": 1,
+            "cols": 4,
+            "start": {"x": 6, "y": 0},
+            "end": {"x": 6, "y": 0},
+            "dir": "xy"
+        }
+    }
+    
+]
