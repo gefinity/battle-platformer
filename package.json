@@ -1,9 +1,9 @@
 {
-  "name": "battle-platformer",
+  "name": "redwarrior",
   "version": "1.0.0",
   "main": "index.js",
   "repository": {
-    "url": "https://github.com/gefinity/battle-platformer.git",
+    "url": "https://github.com/gefinity/redwarrior.git",
     "type": "git"
   },
   "scripts": {
@@ -23,5 +23,12 @@
     "json-loader": "^0.5.4",
     "webpack": "^1.13.2",
     "webpack-dev-server": "^1.16.2"
+  },
+  "devDependencies": {
+    "imagesloaded": "^4.1.3",
+    "invariant": "^2.2.2",
+    "jquery": "^3.2.1",
+    "lodash": "^4.17.4",
+    "stats.js": "^0.17.0"
   }
 }

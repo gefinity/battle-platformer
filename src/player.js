@@ -1,16 +1,16 @@
-import engine, {
-    Entity,
-    Input,
-    Vec2,
-    spriteLoader,
-    SpriteRenderer,
-    BoxCollider,
-    BoxColliderRenderer,
-    sceneIntersectBox,
-    Box2,
-    Transform2,
-    mathUtils,
-} from 'engine';
+import engine                   from 'engine/engine';
+import Entity                   from 'engine/entity';
+import Input                    from 'engine/systems/input';
+import Vec2                     from 'engine/lib/math/vec2';
+import spriteLoader             from 'engine/systems/resources/loaders/spriteLoader';
+import SpriteRenderer           from 'engine/components/spriteRenderer';
+import BoxCollider              from 'engine/components/boxCollider';
+import BoxColliderRenderer      from 'engine/components/boxColliderRenderer';
+import sceneIntersectBox        from 'engine/sceneExtensions/intersectBox';
+import Box2                     from 'engine/lib/math/box2';
+import Transform2               from 'engine/lib/math/transform2';
+import mathUtils                from 'engine/lib/math/utils';
+
 import PlatformController   from './platformController';
 import Axe                  from './axe';
 

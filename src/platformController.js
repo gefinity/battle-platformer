@@ -1,8 +1,9 @@
-import engine, {
-    Component,
-    Vec2,
-    Collider,
-} from 'engine';
+import engine           from 'engine/engine';
+import Entity           from 'engine/entity';
+import Component        from 'engine/component';
+import Vec2             from 'engine/lib/math/vec2';
+import Collider         from 'engine/components/collider';
+
 import moveWithRays from './moveWithRays';
 
 class PlatformController extends Component {

@@ -1,8 +1,6 @@
-import {
-    sceneRaycast,
-    Ray2,
-    Vec2,
-} from 'engine';
+import Vec2             from 'engine/lib/math/vec2';
+import Ray2             from 'engine/lib/math/ray2';
+import sceneRaycast     from 'engine/sceneExtensions/raycast';
 
 function collidingWithPlatform (collision) {
 

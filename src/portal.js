@@ -1,9 +1,9 @@
-import engine, {
-    Entity,
-    Vec2,
-    BoxCollider,
-    sceneIntersectBox,
-} from 'engine';
+import engine               from 'engine/engine';
+import Entity               from 'engine/entity';
+import rendererTypes        from 'engine/rendererTypes';
+import Vec2                 from 'engine/lib/math/vec2';
+import BoxCollider          from 'engine/components/boxCollider';
+import sceneIntersectBox    from 'engine/sceneExtensions/intersectBox'
 
 export default class Portal extends Entity {
 

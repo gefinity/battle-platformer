@@ -1,13 +1,14 @@
-import engine, {
-    Entity,
-    Vec2,
-    BoxCollider,
-    SpriteRenderer,
-    BoxColliderRenderer,
-    sceneIntersectBox,
-} from 'engine';
-import _                    from 'lodash';
-import PlatformController   from './platformController';
+import _                        from 'lodash';
+
+import engine                   from 'engine/engine';
+import Entity                   from 'engine/entity';
+import Vec2                     from 'engine/lib/math/vec2';
+import SpriteRenderer           from 'engine/components/spriteRenderer';
+import BoxCollider              from 'engine/components/boxCollider';
+import BoxColliderRenderer      from 'engine/components/boxColliderRenderer';
+import sceneIntersectBox        from 'engine/sceneExtensions/intersectBox';
+
+import PlatformController       from './platformController';
 
 const gravity = 1600;
 const corpseDuration = 1000;

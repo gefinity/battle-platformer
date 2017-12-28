@@ -1,8 +1,6 @@
-import {
-    Entity,
-    Vec2,
-    BoxCollider,
-} from 'engine';
+import Entity           from 'engine/entity';
+import Vec2             from 'engine/lib/math/vec2';
+import BoxCollider      from 'engine/components/boxCollider';
 
 export default class Wall extends Entity {
 

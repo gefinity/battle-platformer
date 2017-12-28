@@ -1,15 +1,17 @@
-import engine, {
-    CanvasRenderer,
-    fileLoader,
-    tmxLoader,
-    ResourceManager,
-    Input,
-    spriteLoader,
-} from 'engine';
-import path         from 'path';
-import Game         from './game';
-import GridWorld    from './gridWorld';
-import url          from 'url';
+import path             from 'path';
+import url              from 'url';
+
+import engine           from 'engine/engine';
+import CanvasRenderer   from 'engine/systems/canvasRenderer/canvasRenderer';
+import fileLoader       from 'engine/systems/resources/loaders/fileLoader';
+import tmxLoader        from 'engine/systems/resources/loaders/tmxLoader';
+import ResourceManager  from 'engine/systems/resources/resourceManager';
+import Input            from 'engine/systems/input';
+import spriteLoader     from 'engine/systems/resources/loaders/spriteLoader';
+import SimpleScene      from 'engine/scene';
+
+import Game             from './game';
+import GridWorld        from './gridWorld';
 
 function init (level) {
 
@@ -37,6 +39,8 @@ function init (level) {
     });
 
     let inputManager = new Input(renderContainer);
+
+    engine.injectSceneClass(SimpleScene);
 
     engine.timeSettings.updateInterval = 1000/60;
 

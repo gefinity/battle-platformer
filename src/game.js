@@ -1,9 +1,10 @@
 import _            from 'lodash';
-import engine, {
-    Entity,
-    Sprite,
-    animation,
-} from 'engine';
+
+import engine       from 'engine/engine';
+import Entity       from 'engine/entity';
+import Sprite       from 'engine/lib/sprite';
+import animation    from 'engine/lib/animation';
+
 import waveConfig   from '../assets/waves.json';
 
 function randomForEach (array, callback) {

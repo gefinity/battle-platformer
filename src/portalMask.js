@@ -1,7 +1,5 @@
-import {
-    Entity,
-    rendererTypes,
-} from 'engine';
+import Entity           from 'engine/entity';
+import rendererTypes    from 'engine/rendererTypes';
 
 export default class Portal extends Entity {
 

@@ -1,13 +1,12 @@
 import invariant        from 'invariant';
 import _                from 'lodash';
-import {
-    Entity,
-    rendererTypes,
-    Vec2,
-    Collider,
-    Box2,
-    collisions as collisionsLib,
-} from 'engine';
+
+import Entity           from 'engine/entity';
+import rendererTypes    from 'engine/rendererTypes';
+import Vec2             from 'engine/lib/math/vec2';
+import Collider         from 'engine/components/collider';
+import Box2             from 'engine/lib/math/box2';
+import collisionsLib    from 'engine/lib/math/collisions';
 
 class GridCollider extends Collider {
 
